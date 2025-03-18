@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="sda.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.141.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.141.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.141.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="sda.js"></script>
+</head>
+
+<body>
+
+    <!-- header start -->
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="loprob">
+                <button class="log">Login</button>
+                <button class="pro"></button>
+            </div>
+        </nav>
+
+
+        <!-- banner -->
+
+        <div class="container">
+            <div class="left-content">
+                <h1>Xbox Controller</h1>
+                <p class="auto-type">Unlock an immersive gaming experience with this high-quality Xbox controller,
+                    designed for precision,
+                    comfort, and seamless gameplay!</p>
+                <button class="purbut">Purchase</button>
+            </div>
+
+            <div class="right-model" id="model-container">
+                <!-- The 3D model will render inside this div -->
+            </div>
+        </div>
+    </header>
+
+    <!-- header close -->
+
+    <!-- service start -->
+
+    <section class="service" id="service">
+        <div class="firsertxt">
+            <h1>Services</h1>
+        </div>
+        <div class="midsertxt">
+            <h1>Gaming Hardware & Accessories</h1>
+            <p>At [Your Store Name], we offer a range of gaming hardware, from consoles to gaming PCs, ensuring you
+                have the tools you need to play your best. We stock the latest gaming consoles, including PlayStation,
+                Xbox, Nintendo Switch, and more. Additionally, we offer a wide variety of gaming accessories, including
+                headsets, controllers, gaming chairs, and keyboards, all from trusted brands.</p>
+            <h1>Game Collection</h1>
+            <p>Find the latest and greatest titles across every platform. Whether you're into action-packed adventures,
+                strategy games, or online multiplayer experiences, our diverse game library has something for everyone.
+                We offer games for PlayStation, Xbox, PC, and Nintendo Switch, along with rare and collectible editions
+                for die-hard fans.</p>
+            <h1>Exclusive Gaming Merch</h1>
+            <p>Show off your passion for gaming with exclusive merchandise. We offer gaming-themed clothing, posters,
+                action figures, and more. Whether you're a fan of classic franchises or the latest releases, you'll find
+                something special to add to your collection.</p>
+            <h1>Custom Gaming Solutions</h1>
+            <p>Looking to upgrade your gaming setup? Our custom gaming solutions allow you to personalize your
+                experience. From building the perfect gaming PC to setting up your ideal gaming room, we provide expert
+                advice and the best products to make your gaming space uniquely yours.</p>
+        </div>
+    </section>
+
+    <!-- service end -->
+
+    <!-- products start -->
+
+    <section class="products">
+        <div class="firprotxt">
+            <h1>Featured Products</h1>
+            <p>Explore Our Top-Selling Items</p>
+        </div>
+
+        <!-- Scrollable product container -->
+        <div class="scroll-container">
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-1">
+                    <!-- You can render a 3D model here instead of an image -->
+                </div>
+                <h3>Product Name 1</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-2">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 2</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-3">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 3</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-4">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 4</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-5">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 5</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-5">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 6</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-5">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 7</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-5">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 8</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-5">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 9</h3>
+                <p>Description of the product.</p>
+            </div>
+            <div class="xbox">
+                <div class="xbox-model" id="xbox-model-container-5">
+                    <!-- Another model -->
+                </div>
+                <h3>Product Name 10</h3>
+                <p>Description of the product.</p>
+            </div>
+    </section>
+
+    <!-- products end  -->
+
+    <!-- about start  -->
+
+    <section class="about">
+        <div class="firabtxt">
+            <h1>About Us</h1>
+        </div>
+        <div class="midabtxt">
+            <div class="who">
+                <h1>Who We Are</h>
+                    <p>[Your Store Name] is a leading online retailer for gaming enthusiasts. We are passionate about
+                        gaming
+                        and
+                        dedicated to providing top-tier products to help you get the most out of your gaming experience.
+                        With a
+                        vast inventory of gaming gear, hardware, accessories, and apparel, we cater to gamers of all
+                        kinds.
+                        Our
+                        mission is to offer gamers high-quality products at competitive prices while delivering
+                        excellent
+                        customer service.</p>
+            </div>
+            <div class="why">
+                <h1>Why Choose Us?</h1>
+                <ul>
+                    <li>Wide Selection: We offer a wide range of gaming consoles, accessories, and gear from all the
+                        major brands.</li>
+                    <li>Affordable Prices: Enjoy competitive prices with regular discounts and special offers.</li>
+                    <li>Fast Shipping: Get your products delivered quickly and efficiently.</li>
+                    <li>Customer Support: Our team is available to assist you every step of the way. </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="sda.js"></script>
+    <script src="ads.js"></script>
+
+</body>
+
+</html>
